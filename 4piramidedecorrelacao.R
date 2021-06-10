@@ -4,7 +4,7 @@ library(GGally)
 library(corrplot)
 library(ggplot2)
 
-dados<-read.table("https://raw.githubusercontent.com/Lab-Con/R-Scripts/main/piramide.CSV?token=AUEPCQNYFUXCR7267IMHQFDAYJZWK") #nesse caso tem que ser csv, txt não faz
+dados<-read.table("https://raw.githubusercontent.com/Lab-Con/R-Scripts/main/piramide.CSV") #nesse caso tem que ser csv, txt não faz
 attach(dados)
 summary(dados)
 View(dados)
